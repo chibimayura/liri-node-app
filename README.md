@@ -35,23 +35,23 @@ node liri.js my-tweets
 ```
 #### Spotify Songs
 This will find top song under that name and give you the:
-	1. Artist
-	2. Song name
-	3. Album
-	4. Preview link of song.
+1. Artist
+2. Song name
+3. Album
+4. Preview link of song.
 ```
 node liri.js spotify-this-song <insert song name[optional]>
 ```
 #### Movie Info
 This will give:
-	1. Movie title
-	2. Year of Release
-	3. IMDB Rating
-	4. Rotten Tomato Rating
-	5. Country
-	6. Language
-	7. Plot
-	8. Actors/Actresses
+1. Movie title
+2. Year of Release
+3. IMDB Rating
+4. Rotten Tomato Rating
+5. Country
+6. Language
+7. Plot
+8. Actors/Actresses
 ```
 node liri.js movie-this <insert movie name[optional]>
 ```
