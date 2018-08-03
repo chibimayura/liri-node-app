@@ -33,6 +33,8 @@ function command(userCmd){
 		case "do-what-it-says": 
 			doWhatItSays();
 			break;
+		default: 
+			console.log("Rerun and enter: \n\t'my-tweets', \n\t'spotify-this-song' <song name>, \n\t'movie-this' <movie name>, \n\t'do-what-it-says'.");
 	}
 
 	fs.appendFile("log.txt", "\r\nnode liri.js" + userCmd, function(err){
